@@ -16,7 +16,8 @@
 		}
 		public void printEmployeeDetails(){
 
-		System.out.println("Employee Age: " +age);		
+		System.out.println("Employee Ashok Age: " +age);
+                System.out.println("Employee Ashok Age: " +age);		
 		System.out.println("Employee salaray: " +salaray);
 		System.out.println("Employee designation: " +designation);
 		System.out.println("Employee address: " +address);
