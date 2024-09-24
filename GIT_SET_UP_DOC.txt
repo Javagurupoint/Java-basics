@@ -1,0 +1,45 @@
+Here’s a step-by-step guide for pushing you code:
+
+1. Set Up Git Locally
+First, ensure you have Git installed on your local machine.
+
+2. Create a New Repository on GitHub
+
+Go to GitHub and log in to your account.
+Click on the + icon in the upper-right corner and select "New repository."
+Fill in the repository name, description (optional), and choose whether you want the repository to be public or private.
+Click on the "Create repository" button.
+3. Initialize a Local Repository
+
+If you don't have a local repository set up yet:
+
+Open your terminal or command prompt.
+Navigate to the directory where you want to initialize your repository using the cd command.
+Run the following command to initialize a new Git repository:
+git init
+4. Add Your Files
+Add the files you want to commit to your repository.
+Use the git add command to add files to the staging area. You can add individual files or all files:
+
+git add filename
+or
+git add .
+
+5. Commit Your Changes
+Commit the files to the repository with a descriptive message:
+
+git commit -m "Initial commit"
+
+6. Add the Remote Repository
+Link your local repository to the GitHub repository you created. Replace USERNAME with your GitHub username and REPOSITORY_NAME with the name of your GitHub repository:
+
+Ignore this line git remote add origin https://github.com/USERNAME/REPOSITORY_NAME.git
+
+git remote add origin https://github.com/Javagurupoint/Java-basics.git
+
+7. Push Your Code
+Push your changes to GitHub. The first push might require you to set the upstream branch:
+git push -u origin master
+
+For subsequent pushes, you can simply use:
+git push
